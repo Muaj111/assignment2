@@ -134,12 +134,20 @@ nav li{
 @media screen and(max-width: 576px) {
     
 }
+.main5{
+    display: flex;
+    padding: 100px;
+    margin: 20px;
+
+}
 
 
 
 /* footer section */
 .footer{
    background-color: black;
+   padding: 100px;
+
    
 }
 .title1{
@@ -155,3 +163,19 @@ nav li{
     margin: 5px;
     justify-content: center;
 }
+
+.trems{
+    list-style: none;
+    display: flex;
+   
+    justify-content: center;
+    color: #ffffff;
+    gap: 50px;
+   
+}
+
+.end{
+    color: #d195cc;
+    justify-content: center;
+}
+/* footer mobile */
