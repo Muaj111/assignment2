@@ -68,3 +68,90 @@ nav li{
     border-radius: 25px;
     padding: 15px;
 }
+
+/* banner for mobile */
+@media screen and(max-width: 576px) {
+    .main{
+            background-color: #f1e6f0;
+            flex-grow: 1;
+    }
+    
+}
+
+/* main 2 senction */
+.main2{
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #f7eef6;
+    gap: 10px;
+}
+.we{
+    font-size: 20px;
+}
+/* main 2 mobile */
+@media screen and (max-width: 576px){
+    
+}
+
+
+/* main 3 section */
+
+.main3{
+    padding: 10px 100px;
+    
+}
+.imgsec{
+    display: flex;
+    
+}
+.online{
+    justify-content: center;
+}
+.onlineimg{
+    width: 300px;
+    margin: 5px;;
+}
+/* main3 mobile */
+@media screen and(max-width: 576px) {
+    
+}
+
+
+/* main4 section */
+
+.main4{
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+   gap: 20px;
+}
+.ghura{
+    width: 400px;
+}
+
+/* main4 for mobile */
+@media screen and(max-width: 576px) {
+    
+}
+
+
+
+/* footer section */
+.footer{
+   background-color: black;
+   
+}
+.title1{
+    font-size: 35px;
+    display: flex;
+    color: #fef6f6;
+    justify-content: center;
+}
+.lastnav{
+    color: #ffffff;
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
