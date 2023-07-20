@@ -109,14 +109,33 @@ nav li{
     padding: 10px 100px;
     background-color: #f7eef6;
     gap: 10px;
-    display: none;
+    
+}
+.main2 img{
+    width: 100%;
 }
 .we{
     font-size: 20px;
 }
 /* main 2 mobile */
 @media screen and (max-width: 576px){
+    .main2{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .main2 img{
+        width: 100%;
+        padding: 0;
     
+}
+.we{
+    
+    padding: 10 auto ;
+
+}
 }
 
 
@@ -124,23 +143,36 @@ nav li{
 
 .main3{
     padding: 10px 100px;
-    display: none;
+    align-items: center;
+    justify-content: center;
+   
     
 }
 .imgsec{
     display: flex;
+    justify-content: center;
     
 }
 .online{
-    justify-content: center;
+    padding: 10px 500px;
 }
 .onlineimg{
     width: 300px;
     margin: 5px;;
 }
 /* main3 mobile */
-@media screen and(max-width: 576px) {
-    
+@media screen and (max-width: 576px) {
+    .main3{
+        align-items: center;
+        justify-content: center;
+        padding: 50px 50px;
+    }
+    .imgsec{
+        flex-direction: column;
+    }
+    .online{
+        padding: 0 50px;
+    }
 }
 
 
@@ -150,23 +182,90 @@ nav li{
     display: flex;
     align-items: center;
     padding: 10px 100px;
-   gap: 20px;
-   display: none;
+   gap: 150px;
+   
 }
 .ghura{
     width: 400px;
 }
+.furi{
+    width: 200px;
+    position: relative;
+    right: 100px;
+    top: -150px;
+
+}
+
 
 /* main4 for mobile */
-@media screen and(max-width: 576px) {
+@media screen and (max-width: 576px) {
+    .main4{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ghura{
+       width: 250px;
+    }
+    .furi{
+        width: 150px;
+    }
     
 }
 .main5{
     display: flex;
     padding: 100px;
-    margin: 20px;
-    display: none;
+  
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+   
+}
+.div1{
+    display: flex;
+    margin-bottom: 50px;
+    margin: 10px;
+    gap: 10px;
 
+    
+
+}
+.div1:hover {
+    border: solid green;
+    border-radius: 30px;
+}
+.btn9:hover{
+    color: #d71111;
+}
+.btn9{
+    background: none;
+    border: none;
+}
+
+/* main5 for mobile */
+@media screen and (max-width: 576px) {
+
+    .main5{
+        display: flex;
+        padding: 10px;
+      
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .div1{
+        display: flex;
+        margin-bottom: 50px;
+        margin: 10px;
+        gap: 10px;
+    
+        
+    
+    }
+   
+    .btn9{
+        background: none;
+        border: none;
+    }
+    
 }
 
 
@@ -175,7 +274,7 @@ nav li{
 .footer{
    background-color: black;
    padding: 100px;
-   display: none;
+  
 
    
 }
@@ -186,10 +285,11 @@ nav li{
     justify-content: center;
 }
 .lastnav{
-    color: #ffffff;
+    color: #fe0d0d;
     list-style: none;
     display: flex;
-    margin: 5px;
+    margin: 25px;
+    gap: 25px;
     justify-content: center;
 }
 
@@ -205,6 +305,27 @@ nav li{
 
 .end{
     color: #d195cc;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.lasticon{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 /* footer mobile */
+@media screen and (max-width:576px) {
+    .lastnav ul {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .trems{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
